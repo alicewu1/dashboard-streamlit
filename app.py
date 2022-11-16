@@ -1,3 +1,4 @@
+
 # Importing Libraries for Steamlit Dashboard 
 
 import pandas as pd 
@@ -19,6 +20,8 @@ if st.checkbox('Show first 100 records of Diabetes Prediction Dataset'):
     st.dataframe(diabetes)
 
 ## Code Block  ##
+code= '''def scroll(): print("Scroll Down To See Charts")'''
+st.code(code, language='python')
 
 ## Dataframe and Chart 1: BMI Levels ##
 st.subheader('BMI Levels Among Patients')
