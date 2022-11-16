@@ -5,7 +5,7 @@ import numpy as np
 import streamlit as st 
 
 # load in data
-diabetes = pd.read_csv('data\diabetes.csv')
+diabetes = pd.read_csv('diabetes.csv')
 diabetes = diabetes.head(100)
 
 ## Header ##
