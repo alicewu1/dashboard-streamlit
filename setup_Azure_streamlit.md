@@ -30,6 +30,14 @@ open port 80
 - Jinja2 needs to be above version 3.0
 -       pip3 install jinja2 --upgrade
 
+# Open the correct ports
+- Displays: [IP Address:8501] >> Error: port 8501 is not open (the default port for streamlit)
+- Open port 8501 by Opening Networking Tab,
+- Add inbound security rule to open 2 ports: 
+    - Destination port ranges: 8501
+    - Destination port ranges: 8502
+
+
 # Clone your Repo
 -       git clone [repo url]
 -       ls -l 
